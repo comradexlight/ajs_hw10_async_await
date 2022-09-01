@@ -1,4 +1,4 @@
-import { GameSaving } from '../GameSaving';
+import GameSaving from '../GameSaving';
 
 test('Positive test of the GameSaving class', () => {
   const save = new GameSaving(9, 1546300800, {
